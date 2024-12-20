@@ -18,8 +18,11 @@ export class User implements UserCreationArgs {
   @Column()
   last_name!: string;
 
-  @Column()
+  @Column({ default: false })
   is_active!: boolean;
+
+  @Column({ default: false })
+  is_ban!: boolean;
 }
 
 export default User;

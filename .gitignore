@@ -4,3 +4,4 @@
 
 #files
 pnpm-lock.yaml
+.env
